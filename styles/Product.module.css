@@ -1,0 +1,135 @@
+.container{
+     padding: 100px;
+     display: flex;
+     position: relative;
+     margin-bottom: 60px;
+     padding-top: 150px;
+}
+.cardB{
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardS{
+    flex: 1;
+}
+.img_container{
+    width: 25%;
+    margin: 10px;
+   position: relative;
+}
+.img_container:nth-child(3){
+    border-top-right-radius: 50%; 
+    overflow: hidden;
+}
+.heading{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.para{
+    font-size: 20px;
+}
+.button{
+    padding: 15px 20px;
+    background-color: green;
+    color: #fff;
+    border:none;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+@media (max-width:480px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .heading{
+        font-size: 25px;
+        margin-bottom: 13px;
+        margin-top: 80px;
+        min-width: 100%;
+    }
+    .para{
+        font-size: 17px;
+    }
+    .button{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: .9rem;
+    }
+    .img_container{
+       width: 300px;
+       height: 300px;
+       margin: auto;
+       border-radius: 50%;
+       overflow: hidden;
+       margin: 20px  0;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .heading{
+        font-size: 30px;
+        margin-bottom: 13px;
+        margin-top: 80px;
+        min-width: 100%;
+    }
+    .para{
+        font-size: 25px;
+    }
+    .button{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+    }
+    .img_container{
+       width: 40%;
+       height: 200px;
+       margin: auto;
+       overflow: hidden;
+       margin: 15px  15px;
+    }
+    .img_container:nth-child(3){
+      border-top-right-radius: inherit;
+    }
+}
+@media (min-width:768px) and (max-width:1129px){
+    .container{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .heading{
+        font-size: 40px;
+        margin-bottom: 13px;
+        margin-top: 80px;
+        min-width: 100%;
+    }
+    .para{
+        font-size: 30px;
+    }
+    .button{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+    }
+    .img_container{
+       width: 45%;
+       height: 400px;
+       margin: auto;
+       overflow: hidden;
+       margin: 15px  15px;
+    }
+    .img_container:nth-child(3){
+      border-top-right-radius: inherit;
+    }
+}

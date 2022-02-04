@@ -1,0 +1,148 @@
+.footer{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+    text-transform: uppercase;  
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    margin-top: auto;
+}
+.header{
+    font-weight: 900;
+    background-color:#fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    width: max-content;
+}
+.link__img{
+    background: #fff;
+}
+.link__header{
+    text-decoration: underline;
+    margin-top: 20px ;
+}
+.link__header{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin-right: 10px;
+}
+.cardL{
+    flex: 2;
+}
+.cardS{
+    flex: 1;
+}
+.cardItems{
+    font-size: 18px;
+}
+@media (max-width:480px) {
+    .footer{
+        padding: 0 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 20px;
+        margin: auto;
+        margin-top: 20px;
+        width: 100%;
+        padding:0;
+    }
+    .link__header{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .link__img{
+        width: 10px!important;
+        height: 10px!important;
+    }
+    .cardItems{
+        font-size: 15px;
+        margin: 15px;
+    }
+}
+@media (min-width:480px) and (max-width:768px) {
+    .footer{
+        padding: 0 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 35px;
+        margin: auto;
+        margin-top: 20px;
+        width: 100%;
+        padding:0;
+    }
+    .link__header{
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .link__img{
+        width: 10px!important;
+        height: 10px!important;
+    }
+    .cardItems{
+        font-size: 22px;
+        margin: 15px;
+    }
+}
+@media (min-width:768px) and (max-width:968px) {
+    .footer{
+        padding: 0 20px;
+        height: auto;
+        display: flex;
+    }
+    .header{
+        font-size: 30px;
+        margin-top: 20px;
+        width: max-content;
+        padding:0;
+    }
+    .link__header{
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .link__img{
+        width: 10px!important;
+        height: 10px!important;
+    }
+    .cardItems{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+@media (min-width:968px) and (max-width:1168px) {
+    .footer{
+        padding: 0 20px;
+        height: auto;
+        display: flex;
+    }
+    .header{
+        font-size: 30px;
+        margin-top: 20px;
+        width: max-content;
+        padding:0;
+    }
+    .link__header{
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .link__img{
+        width: 10px!important;
+        height: 10px!important;
+    }
+    .cardItems{
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+
